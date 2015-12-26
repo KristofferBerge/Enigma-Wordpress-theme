@@ -21,7 +21,7 @@
 			</div>
 			<span>Powered by </span><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'enigma' ) ); ?>"><?php printf( __( ' %s', 'enigma' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme by: %1$s .  %2$s.', 'Enigma' ), 'enigma', '<a href="https://github.com/KristofferBerge/Enigma-Wordpress-theme" rel="designer">Contribute to this theme on GitHub</a>' ); ?>
+			<?php printf( __( 'Theme by: %1$s. Contribute to this theme on %2$s.', 'Enigma' ), 'Enigma', '<a href="https://github.com/KristofferBerge/Enigma-Wordpress-theme" rel="designer">GitHub</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
