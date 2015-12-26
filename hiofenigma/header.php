@@ -11,8 +11,14 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type='text/javascript' src='/wordpress/wp-content/themes/hiofenigma/qr-generator/jquery.min.js'></script>
-<script type='text/javascript' src='/wordpress/wp-content/themes/hiofenigma/qr-generator/qrcode.js'></script>
+<!--Linker til kalender-plugin -->
+<link href='/wordpress/wp-content/themes/hiofenigma/kalender/fullcalendar.css' rel='stylesheet' />
+<link href='/wordpress/wp-content/themes/hiofenigma/kalender/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='/wordpress/wp-content/themes/hiofenigma/kalender/lib/moment.min.js'></script>
+<script src='/wordpress/wp-content/themes/hiofenigma/kalender/lib/jquery.min.js'></script>
+<script src='/wordpress/wp-content/themes/hiofenigma/kalender/fullcalendar.min.js'></script>
+<script src='/wordpress/wp-content/themes/hiofenigma/kalender/gcal.js'></script>
+<!--Slutt på linker til kalender-plugin -->
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <!-- Bildet som brukes av facebook når man deler -->
 <link rel="image_src" type="image/jpeg" href="http://enigma.hiof.no/wp-content/uploads/2015/10/icon-facebook.gif" />
